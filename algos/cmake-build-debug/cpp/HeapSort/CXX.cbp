@@ -5,7 +5,7 @@
 		<Option title="CXX"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\cpp\;CMake Files\cpp\HeapSort\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cpp\;CMake Files\cpp\HeapSort\;CMake Files\cpp\QuickSort\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/Users/tianm/repos/sorting-algorithms/algos/cmake-build-debug/cpp/HeapSort"/>
@@ -24,6 +24,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/Users/tianm/repos/sorting-algorithms/algos/cpp/cppUtils/utils"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
@@ -45,6 +46,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/Users/tianm/repos/sorting-algorithms/algos/cpp/cppUtils/utils"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
@@ -59,15 +61,71 @@
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/tianm/repos/sorting-algorithms/algos/cmake-build-debug/cpp/HeapSort/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="quickSort">
+				<Option output="/Users/tianm/repos/sorting-algorithms/algos/cmake-build-debug/cpp/QuickSort/quickSort" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tianm/repos/sorting-algorithms/algos/cmake-build-debug/cpp/QuickSort"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tianm/repos/sorting-algorithms/algos/cpp/cppUtils/utils"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/tianm/repos/sorting-algorithms/algos/cmake-build-debug/cpp/QuickSort/Makefile&quot;  VERBOSE=1 quickSort"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/tianm/repos/sorting-algorithms/algos/cmake-build-debug/cpp/QuickSort/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/tianm/repos/sorting-algorithms/algos/cmake-build-debug/cpp/QuickSort/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/tianm/repos/sorting-algorithms/algos/cmake-build-debug/cpp/QuickSort/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="quickSort/fast">
+				<Option output="/Users/tianm/repos/sorting-algorithms/algos/cmake-build-debug/cpp/QuickSort/quickSort" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tianm/repos/sorting-algorithms/algos/cmake-build-debug/cpp/QuickSort"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tianm/repos/sorting-algorithms/algos/cpp/cppUtils/utils"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/tianm/repos/sorting-algorithms/algos/cmake-build-debug/cpp/QuickSort/Makefile&quot;  VERBOSE=1 quickSort/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/tianm/repos/sorting-algorithms/algos/cmake-build-debug/cpp/QuickSort/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/tianm/repos/sorting-algorithms/algos/cmake-build-debug/cpp/QuickSort/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/tianm/repos/sorting-algorithms/algos/cmake-build-debug/cpp/QuickSort/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
 		<Unit filename="/Users/tianm/repos/sorting-algorithms/algos/cpp/HeapSort/heapSort.cpp">
 			<Option target="heapSort"/>
+		</Unit>
+		<Unit filename="/Users/tianm/repos/sorting-algorithms/algos/cpp/QuickSort/quickSort.cpp">
+			<Option target="quickSort"/>
+		</Unit>
+		<Unit filename="/Users/tianm/repos/sorting-algorithms/algos/cpp/cppUtils/utils/myutils.cpp">
+			<Option target="quickSort"/>
+		</Unit>
+		<Unit filename="/Users/tianm/repos/sorting-algorithms/algos/cpp/cppUtils/utils/myutils.h">
+			<Option target="quickSort"/>
 		</Unit>
 		<Unit filename="/Users/tianm/repos/sorting-algorithms/algos/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 		<Unit filename="/Users/tianm/repos/sorting-algorithms/algos/cpp/HeapSort/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\cpp\HeapSort\"/>
+		</Unit>
+		<Unit filename="/Users/tianm/repos/sorting-algorithms/algos/cpp/QuickSort/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cpp\QuickSort\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

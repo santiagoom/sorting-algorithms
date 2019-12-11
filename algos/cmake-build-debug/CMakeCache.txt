@@ -213,10 +213,10 @@ CMAKE_STRIP:FILEPATH=/Library/Developer/CommandLineTools/usr/bin/strip
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Value Computed by CMake
-CXX_BINARY_DIR:STATIC=/Users/tianm/repos/sorting-algorithms/algos/cmake-build-debug/cpp/HeapSort
+CXX_BINARY_DIR:STATIC=/Users/tianm/repos/sorting-algorithms/algos/cmake-build-debug/cpp/QuickSort
 
 //Value Computed by CMake
-CXX_SOURCE_DIR:STATIC=/Users/tianm/repos/sorting-algorithms/algos/cpp/HeapSort
+CXX_SOURCE_DIR:STATIC=/Users/tianm/repos/sorting-algorithms/algos/cpp/QuickSort
 
 //Path to a program.
 ProcessorCount_cmd_sysctl:FILEPATH=/usr/sbin/sysctl
@@ -332,7 +332,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=2
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=3
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

@@ -123,6 +123,19 @@ heapSort/fast:
 	$(MAKE) -f cpp/HeapSort/CMakeFiles/heapSort.dir/build.make cpp/HeapSort/CMakeFiles/heapSort.dir/build
 .PHONY : heapSort/fast
 
+#=============================================================================
+# Target rules for targets named quickSort
+
+# Build rule for target.
+quickSort: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 quickSort
+.PHONY : quickSort
+
+# fast build rule for target.
+quickSort/fast:
+	$(MAKE) -f cpp/QuickSort/CMakeFiles/quickSort.dir/build.make cpp/QuickSort/CMakeFiles/quickSort.dir/build
+.PHONY : quickSort/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -132,6 +145,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... heapSort"
+	@echo "... quickSort"
 .PHONY : help
 
 

@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../cpp/cppUtils/utils/myutils.h
+iostream
+-
+vector
+-
+stack
+-
+
+/Users/tianm/repos/sorting-algorithms/algos/cpp/QuickSort/quickSort.cpp
+iostream
+-
+vector
+-
+myutils.h
+-
+

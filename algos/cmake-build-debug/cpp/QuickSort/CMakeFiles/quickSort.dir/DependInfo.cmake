@@ -4,7 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/tianm/repos/sorting-algorithms/algos/cpp/HeapSort/heapSort.cpp" "/Users/tianm/repos/sorting-algorithms/algos/cmake-build-debug/cpp/HeapSort/CMakeFiles/heapSort.dir/heapSort.cpp.o"
+  "/Users/tianm/repos/sorting-algorithms/algos/cpp/cppUtils/utils/myutils.cpp" "/Users/tianm/repos/sorting-algorithms/algos/cmake-build-debug/cpp/QuickSort/CMakeFiles/quickSort.dir/__/cppUtils/utils/myutils.cpp.o"
+  "/Users/tianm/repos/sorting-algorithms/algos/cpp/QuickSort/quickSort.cpp" "/Users/tianm/repos/sorting-algorithms/algos/cmake-build-debug/cpp/QuickSort/CMakeFiles/quickSort.dir/quickSort.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

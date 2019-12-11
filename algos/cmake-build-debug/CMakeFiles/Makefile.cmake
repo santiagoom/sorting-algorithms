@@ -38,6 +38,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.14.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.14.3/CMakeSystem.cmake"
   "../cpp/HeapSort/CMakeLists.txt"
+  "../cpp/QuickSort/CMakeLists.txt"
   )
 
 # The corresponding makefile is:
@@ -50,9 +51,11 @@ set(CMAKE_MAKEFILE_OUTPUTS
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "cpp/HeapSort/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "cpp/QuickSort/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "cpp/HeapSort/CMakeFiles/heapSort.dir/DependInfo.cmake"
+  "cpp/QuickSort/CMakeFiles/quickSort.dir/DependInfo.cmake"
   )
