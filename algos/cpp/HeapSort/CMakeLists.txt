@@ -4,3 +4,4 @@ project(CXX)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(heapSort heapSort.cpp)
+add_executable(heapSort_ori heapSort_ori.cpp)

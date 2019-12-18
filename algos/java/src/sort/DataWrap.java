@@ -1,5 +1,5 @@
 package sort;
-
+//
 public class DataWrap implements Comparable<DataWrap>{
 	int data;
 	String flag;

@@ -6,15 +6,15 @@ package sort;
  * 2013-11-27
  */
 public class QuickSort {
-	private static void swap(DataWrap[] data, int i, int j) {
-		DataWrap temp = data[i];
+	private static void swap(sort.DataWrap[] data, int i, int j) {
+		sort.DataWrap temp = data[i];
 		data[i] = data[j];
 		data[j] = temp;
 	}
 
-	private static void subSort(DataWrap[] data, int start, int end) {
+	private static void subSort(sort.DataWrap[] data, int start, int end) {
 		if (start < end) {
-			DataWrap base = data[start];
+			sort.DataWrap base = data[start];
 			int i = start;
 			int j = end + 1;
 			while (true) {
@@ -33,15 +33,15 @@ public class QuickSort {
 			subSort(data, j + 1, end);
 		}
 	}
-	public static void quickSort(DataWrap[] data){
+	public static void quickSort(sort.DataWrap[] data){
 		subSort(data,0,data.length-1);
 	}
 	public static void main(String[] args) {
-		DataWrap[] data = { new DataWrap(9, ""), new DataWrap(-16, ""),
-				new DataWrap(21, "*"), new DataWrap(23, ""),
-				new DataWrap(-30, ""), new DataWrap(-49, ""),
-				new DataWrap(21, ""), new DataWrap(30, "*"),
-				new DataWrap(30, "") };
+		sort.DataWrap[] data = { new sort.DataWrap(9, ""), new sort.DataWrap(-16, ""),
+				new sort.DataWrap(21, "*"), new sort.DataWrap(23, ""),
+				new sort.DataWrap(-30, ""), new sort.DataWrap(-49, ""),
+				new sort.DataWrap(21, ""), new sort.DataWrap(30, "*"),
+				new sort.DataWrap(30, "") };
 		System.out.println("排序之前：\n" + java.util.Arrays.toString(data));
 		quickSort(data);
 		System.out.println("排序之后：\n" + java.util.Arrays.toString(data));

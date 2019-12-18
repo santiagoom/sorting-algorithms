@@ -111,6 +111,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+cpp/HeapSort/CMakeFiles/heapSort_ori.dir/rule:
+	cd /Users/tianm/repos/sorting-algorithms/algos/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/HeapSort/CMakeFiles/heapSort_ori.dir/rule
+.PHONY : cpp/HeapSort/CMakeFiles/heapSort_ori.dir/rule
+
+# Convenience name for target.
+heapSort_ori: cpp/HeapSort/CMakeFiles/heapSort_ori.dir/rule
+
+.PHONY : heapSort_ori
+
+# fast build rule for target.
+heapSort_ori/fast:
+	cd /Users/tianm/repos/sorting-algorithms/algos/cmake-build-debug && $(MAKE) -f cpp/HeapSort/CMakeFiles/heapSort_ori.dir/build.make cpp/HeapSort/CMakeFiles/heapSort_ori.dir/build
+.PHONY : heapSort_ori/fast
+
+# Convenience name for target.
 cpp/HeapSort/CMakeFiles/heapSort.dir/rule:
 	cd /Users/tianm/repos/sorting-algorithms/algos/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/HeapSort/CMakeFiles/heapSort.dir/rule
 .PHONY : cpp/HeapSort/CMakeFiles/heapSort.dir/rule
@@ -152,6 +167,33 @@ heapSort.cpp.s:
 	cd /Users/tianm/repos/sorting-algorithms/algos/cmake-build-debug && $(MAKE) -f cpp/HeapSort/CMakeFiles/heapSort.dir/build.make cpp/HeapSort/CMakeFiles/heapSort.dir/heapSort.cpp.s
 .PHONY : heapSort.cpp.s
 
+heapSort_ori.o: heapSort_ori.cpp.o
+
+.PHONY : heapSort_ori.o
+
+# target to build an object file
+heapSort_ori.cpp.o:
+	cd /Users/tianm/repos/sorting-algorithms/algos/cmake-build-debug && $(MAKE) -f cpp/HeapSort/CMakeFiles/heapSort_ori.dir/build.make cpp/HeapSort/CMakeFiles/heapSort_ori.dir/heapSort_ori.cpp.o
+.PHONY : heapSort_ori.cpp.o
+
+heapSort_ori.i: heapSort_ori.cpp.i
+
+.PHONY : heapSort_ori.i
+
+# target to preprocess a source file
+heapSort_ori.cpp.i:
+	cd /Users/tianm/repos/sorting-algorithms/algos/cmake-build-debug && $(MAKE) -f cpp/HeapSort/CMakeFiles/heapSort_ori.dir/build.make cpp/HeapSort/CMakeFiles/heapSort_ori.dir/heapSort_ori.cpp.i
+.PHONY : heapSort_ori.cpp.i
+
+heapSort_ori.s: heapSort_ori.cpp.s
+
+.PHONY : heapSort_ori.s
+
+# target to generate assembly for a file
+heapSort_ori.cpp.s:
+	cd /Users/tianm/repos/sorting-algorithms/algos/cmake-build-debug && $(MAKE) -f cpp/HeapSort/CMakeFiles/heapSort_ori.dir/build.make cpp/HeapSort/CMakeFiles/heapSort_ori.dir/heapSort_ori.cpp.s
+.PHONY : heapSort_ori.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -160,10 +202,14 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... heapSort_ori"
 	@echo "... heapSort"
 	@echo "... heapSort.o"
 	@echo "... heapSort.i"
 	@echo "... heapSort.s"
+	@echo "... heapSort_ori.o"
+	@echo "... heapSort_ori.i"
+	@echo "... heapSort_ori.s"
 .PHONY : help
 
 

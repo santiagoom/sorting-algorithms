@@ -56,6 +56,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "cpp/HeapSort/CMakeFiles/heapSort_ori.dir/DependInfo.cmake"
   "cpp/HeapSort/CMakeFiles/heapSort.dir/DependInfo.cmake"
   "cpp/QuickSort/CMakeFiles/quickSort.dir/DependInfo.cmake"
   )

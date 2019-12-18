@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named heapSort_ori
+
+# Build rule for target.
+heapSort_ori: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 heapSort_ori
+.PHONY : heapSort_ori
+
+# fast build rule for target.
+heapSort_ori/fast:
+	$(MAKE) -f cpp/HeapSort/CMakeFiles/heapSort_ori.dir/build.make cpp/HeapSort/CMakeFiles/heapSort_ori.dir/build
+.PHONY : heapSort_ori/fast
+
+#=============================================================================
 # Target rules for targets named heapSort
 
 # Build rule for target.
@@ -144,6 +157,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... heapSort_ori"
 	@echo "... heapSort"
 	@echo "... quickSort"
 .PHONY : help
