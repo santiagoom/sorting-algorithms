@@ -1,3 +1,14 @@
-.DS_Store
+# .gitignore 
+# find . -name "*.py" -exec git add {} +
+# git add \*.py
 
+.DS_Store
 .idea/
+walk.sh
+addIgnore.py
+envs.py
+path.sh
+envs.sh
+pyutils
+
+algos/cmake-build-debug/*
