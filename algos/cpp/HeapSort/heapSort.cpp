@@ -9,8 +9,6 @@ void printArray(int arr[], int n);
 // an index in arr[]. n is size of heap
 void heapify(int arr[], int n, int i) {
     cout << "i: " << i << endl;
-
-
     int largest = i; // Initialize largest as root
     int l = 2 * i + 1; // left = 2*i + 1
     int r = 2 * i + 2; // right = 2*i + 2
@@ -31,6 +29,7 @@ void heapify(int arr[], int n, int i) {
         // Recursively heapify the affected sub-tree
         heapify(arr, n, largest);
     }
+
 }
 
 // main function to do heap sort

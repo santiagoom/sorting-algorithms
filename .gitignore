@@ -12,3 +12,7 @@ envs.sh
 pyutils
 
 algos/cmake-build-debug/*
+algos/java/src/output/*
+
+
+

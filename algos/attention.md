@@ -18,5 +18,41 @@
 
 merge完成之后，定义临时index将排序完成之后的数据复制到原先的位置。
 
+## heapSort
+
+堆排序的最大索引值2i+2比其长度n小1，即2i+2<n；
+
+## quickSort
+
+
+
+
+
+# Stability in sorting algorithms
+
+## heapSort
+
+不稳定
+
+```
+     /   \
+   23    30
+  /  \
+30    30
+```
+
+## SelectSort2
+
+不稳定
+
+```
+
+10* 10 5
+
+5 10 10*
+```
+
+## quickSort
+
 
 
