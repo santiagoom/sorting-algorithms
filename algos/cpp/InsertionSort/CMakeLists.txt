@@ -7,4 +7,7 @@ file(GLOB SOURCES
         ../cppUtils/utils/myutils.h
         ../cppUtils/utils/myutils.cpp
         )
-add_executable(00_input_test 00_input_test ${SOURCE_FILES} ${SOURCES})
+
+add_executable(InsertionSort_geek InsertionSort_geek.cpp ${SOURCE_FILES} ${SOURCES})
+add_executable(insertionsort_practise insertionsort_practise.cpp ${SOURCE_FILES} ${SOURCES})
+

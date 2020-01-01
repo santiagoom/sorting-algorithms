@@ -8,6 +8,7 @@ file(GLOB SOURCES
         ../cppUtils/utils/myutils.cpp
         )
 
-add_executable(HeapSort HeapSort.cpp ${SOURCE_FILES} ${SOURCES})
-add_executable(HeapSort_practise HeapSort_practise.cpp ${SOURCE_FILES} ${SOURCES})
+
+add_executable(MergeSort MergeSort.cpp ${SOURCE_FILES} ${SOURCES})
+add_executable(MergeSort_practise MergeSort_practise.cpp ${SOURCE_FILES} ${SOURCES})
 

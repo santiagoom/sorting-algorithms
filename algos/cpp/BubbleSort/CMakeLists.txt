@@ -7,7 +7,6 @@ file(GLOB SOURCES
         ../cppUtils/utils/myutils.h
         ../cppUtils/utils/myutils.cpp
         )
-
-add_executable(HeapSort HeapSort.cpp ${SOURCE_FILES} ${SOURCES})
-add_executable(HeapSort_practise HeapSort_practise.cpp ${SOURCE_FILES} ${SOURCES})
+add_executable(BubbleSort_practise BubbleSort_practise.cpp ${SOURCE_FILES} ${SOURCES})
+add_executable(OptimizedImplementation OptimizedImplementation.cpp ${SOURCE_FILES} ${SOURCES})
 
