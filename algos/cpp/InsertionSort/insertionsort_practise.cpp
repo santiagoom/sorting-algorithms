@@ -5,6 +5,7 @@
 using namespace std;
 
 class Solution {
+//    注意空位是j+1
 public:
 //    bug without swap
 //    void insertSort(vector<int> &nums) {
