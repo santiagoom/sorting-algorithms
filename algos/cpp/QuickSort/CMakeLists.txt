@@ -6,6 +6,8 @@ set(CMAKE_CXX_STANDARD 14)
 file(GLOB SOURCES
         ../cppUtils/utils/myutils.h
         ../cppUtils/utils/myutils.cpp
+        ../cppUtils/utils/myListNode.h
+        ../cppUtils/utils/myListNode.cpp
         )
 add_executable(quickSort quickSort.cpp ${SOURCE_FILES} ${SOURCES})
 add_executable(quicksort_practise quicksort_practise.cpp ${SOURCE_FILES} ${SOURCES})
@@ -13,4 +15,4 @@ add_executable(quicksort_practise_v2 quicksort_practise_v2.cpp ${SOURCE_FILES} $
 add_executable(quicksort_practise_v3 quicksort_practise_v3.cpp ${SOURCE_FILES} ${SOURCES})
 add_executable(QuickSort_geek QuickSort_geek.cpp ${SOURCE_FILES} ${SOURCES})
 add_executable(QuickSort_geek_debug QuickSort_geek_debug.cpp ${SOURCE_FILES} ${SOURCES})
-
+add_executable(quicksort_practise_list quicksort_practise_list.cpp ${SOURCE_FILES} ${SOURCES})
