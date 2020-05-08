@@ -11,4 +11,5 @@ file(GLOB SOURCES
 add_executable(HeapSort HeapSort.cpp ${SOURCE_FILES} ${SOURCES})
 add_executable(HeapSort_practise HeapSort_practise.cpp ${SOURCE_FILES} ${SOURCES})
 add_executable(file1 file1.cpp ${SOURCE_FILES} ${SOURCES})
+add_executable(file2_out file2_out.cpp ${SOURCE_FILES} ${SOURCES})
 
