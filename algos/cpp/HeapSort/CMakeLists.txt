@@ -13,3 +13,6 @@ add_executable(HeapSort_practise HeapSort_practise.cpp ${SOURCE_FILES} ${SOURCES
 add_executable(file1 file1.cpp ${SOURCE_FILES} ${SOURCES})
 add_executable(file2_out file2_out.cpp ${SOURCE_FILES} ${SOURCES})
 
+message(STATUS, "${SOURCE_FILES}")
+message(STATUS, "${SOURCES}")
+message(STATUS "4: ${SOURCE_FILES}")

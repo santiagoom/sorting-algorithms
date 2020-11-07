@@ -1,4 +1,7 @@
-# .gitignore 
+# addIgnore True
+# size_flag 0
+# threshold 2.0
+
 # find . -name "*.py" -exec git add {} +
 # git add \*.py
 
