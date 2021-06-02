@@ -1,6 +1,6 @@
 # include <iostream>
 # include <vector>
-# include <myutils.h>
+# include <cppUtils.h>
 
 using namespace std;
 
@@ -45,9 +45,9 @@ int main() {
 //    2019-12-31-2 20:02:48
     auto *so = new Solution();
     vector<int> nums{40, 70, 50, 30, 35, 80, 65, 55, 60, 45};
-    print_1d_vector(nums);
+    CppUtils::print_1d_vector(nums);
     so->mergeSort(nums, 0, nums.size() - 1);
-    print_1d_vector(nums);
+    CppUtils::print_1d_vector(nums);
     delete so;
     return 0;
 }

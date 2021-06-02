@@ -1,7 +1,6 @@
 # include <iostream>
 # include <vector>
-# include <myutils.h>
-# include <myListNode.h>
+# include <cppUtils.h>
 
 using namespace std;
 
@@ -48,9 +47,9 @@ int main() {
 //2019-12-31-2 21:08:12
     auto *so = new Solution();
     vector<int> nums{40, 70, 50, 30, 35, 80, 65, 55, 60, 45};
-    print_1d_vector(nums);
+    CppUtils::print_1d_vector(nums);
     so->heapSort(nums, nums.size());
-    print_1d_vector(nums);
+    CppUtils::print_1d_vector(nums);
     cout << "new file!" << endl;
     delete so;
     return 0;

@@ -3,11 +3,4 @@ project(sorting-algorithms)
 
 set(CMAKE_CXX_STANDARD 14)
 
-#add_executable()
-include_directories(cpp/cppUtils/utils)
-add_subdirectory(cpp/HeapSort)
-#add_subdirectory(cpp/QuickSort)
-#add_subdirectory(cpp/InsertionSort)
-#add_subdirectory(cpp/BubbleSort)
-#add_subdirectory(cpp/SelectionSort)
-#add_subdirectory(cpp/MergeSort)
+add_subdirectory(cpp)

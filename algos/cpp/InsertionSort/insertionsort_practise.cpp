@@ -1,6 +1,6 @@
 #include <iostream>
 #include <vector>
-#include <myutils.h>
+#include <cppUtils.h>
 
 using namespace std;
 
@@ -44,9 +44,9 @@ int main() {
 //2019-12-31-2 18:32:38
     auto *so = new Solution();
     vector<int> nums{40, 70, 50, 30, 35, 80, 65, 55, 60, 45};
-    print_1d_vector(nums);
+    CppUtils::print_1d_vector(nums);
     so->insertSort(nums);
-    print_1d_vector(nums);
+    CppUtils::print_1d_vector(nums);
     cout << "new file!" << endl;
     delete so;
     return 0;
